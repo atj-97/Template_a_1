@@ -1,0 +1,99 @@
+/*numbers section*/
+.numbers{
+    position: relative;
+    background-image: url("../images/background2.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.numbers-items{
+    overflow: hidden;
+    padding: 100px;
+    
+
+}
+.number-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.number-item .icon{
+    color:var(--maincolor);
+    margin-bottom: 15px;
+}
+.number-item-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.number-item-text {
+    color: #fff;
+}
+.pricing{
+
+}
+.pricing-plans{
+    overflow: hidden;
+
+}
+.pricing-item{
+    width: 30%;
+    float: left;
+    padding: 40px 15px;
+    border: 1px solid #e6d9d9;
+    text-align: center;
+}
+.pricing-item.mg{
+    margin: 0 5%;
+}
+.pricing-item-text{
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #999;
+    transition:  color 0.5s;
+}
+.pricing-item-permonth{
+    width: 90px;
+    height: 90px;
+    transition: color 0.5s;
+   padding: 15px 0;
+    margin: 12px auto;
+   border: 2px solid var(--maincolor);
+   border-radius: 50%;
+}
+.pricing-item-permonth .doller{
+    font-size: 35px;
+
+}
+.pricing-item-permonth .month{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pricing-list{
+    list-style: none;
+}
+.pricing-list li{
+    color: #999;
+    line-height: 1.8;
+
+}
+.pricing-itme-purchase{
+    background: none;
+    border: 0;
+    display: block;
+    width: 140px;
+    border:2px solid #7ba7ff;
+    padding: 10px;
+    margin:15px auto 0 auto;
+    color: #7ba7ff;
+    
+
+}
+.pricing-item:hover .pricing-item-permonth{
+    color: #fff;
+}
+.pricing-item:hover .pricing-item-text{
+    color: var(--maincolor);
+}
